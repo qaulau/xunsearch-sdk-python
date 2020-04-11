@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 # 
-from distutils.core import setup
+from setuptools import setup
 
 
 with open("README.md", "r") as fh:
@@ -8,13 +8,13 @@ with open("README.md", "r") as fh:
 
 setup(
     name='xunsearch',
-    version='0.0.1',
+    version='0.0.2',
     description='Python version of xunsearchd client (Python API)',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='qaulau',
     author_email='qaulau@hotmail.com',
-    url='http://www.qaulau.com',
+    url='https://github.com/qaulau/xunsearch-sdk-python',
     packages=['xunsearch'],
     classifiers = [
 	    'Development Status :: 4 - Beta',
